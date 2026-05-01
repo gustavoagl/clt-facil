@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "calculadora-direitos",
-    "slug": "calculadora-direitos",
+    "name": "CLT Fácil",
+    "slug": "clt-facil",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cltfacil.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "package": "com.cltfacil.app",
+      "versionCode": 1,
       "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f7cd3178-b14f-4020-aa57-ad3b0fe3c072"
+      }
+    },
+    "owner": "shazamxd"
   }
 }
